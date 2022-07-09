@@ -8,16 +8,16 @@ for i in range(N) :
       answer[i] = max(answer[i], answer[j] + 1)
 
 result = max(answer)
-print(result)
-compare = arr[answer.index(result)]
-findList = [compare]
-for i in range(1, result) :
-  for j in range(N) :
-    temp = N - j - 1
-    if((answer[temp] == result - i) and arr[temp] < compare) :
-      findList.append(arr[temp])
-      compare = arr[temp]
+answer_list = [arr[answer.index(result)]]
+temp = result
+for i in range(result - 1):
+  for j in range(answer.index(result)):
+    if((answer[j] == (temp - 1)) and arr[j] < answer_list[i]) :
+      answer_list.append(arr[j])
+      temp = answer[j]
       break
-for i in range(1, result + 1) :
-  print(findList[result - i], end = " ")
-print()
+print(result)
+answer_list.reverse()
+for i in range(result - 1) :
+  print(answer_list[i], end = " ")
+print(answer_list[result - 1])
