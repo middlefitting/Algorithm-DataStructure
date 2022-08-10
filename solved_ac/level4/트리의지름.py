@@ -1,24 +1,48 @@
-N = int(input())
-arr = [[100000000] * N for _ in range(N)]
+import sys
+from collections import deque
+
+N = int(sys.stdin.readline())
 vector = [[] for _ in range(N)]
 for _ in range(N):
-    temp = list(map(int, input().split()))
-    for i in range(1, (len(temp) // 2)):
-        vector[temp[0] - 1].append(temp[i * 2 - 1] - 1)
-        vector[temp[i * 2 - 1] - 1].append(temp[0] - 1)
-        arr[temp[0] - 1][temp[i * 2 - 1] - 1] = temp[i * 2]
-        arr[temp[i * 2 - 1] - 1][temp[0] - 1] = temp[i * 2]
+    temp = list(map(int, sys.stdin.readline().split()))
+    for i in range((len(temp) // 2) - 1):
+        vector[temp[0] - 1].append([temp[2 * i + 1] - 1, temp[2 * i + 2]])
 
-for i in range(N):
-    arr[i][i] = 0
+first = [1000000000] * N
+first[0] = 0
+visit = [0] * N
 
+
+def dfs(x, depth):
+    for i in (vector[x]):
+        first[i[0]] = min(first[i[0]], depth + i[1])
+        if ((i[0] in visit) == False):
+            visit.append(i[0])
+            dfs(i[0], depth + i[1])
+            visit.remove(i[0])
+
+
+def bfs(x):
+    queue = deque([])
+    queue.append(x)
+    while (queue):
+        tx = queue.popleft()
+        for i in (vector[tx]):
+            first[i[0]] = min(first[i[0]], first[tx] + i[1])
+            if (not visit[i[0]]):
+                visit[i[0]] = 1
+                queue.append(i[0])
+
+
+bfs(0)
+big = [0, 0]
 for i in range(N):
-    for j in (vector[i]):
-        for n in range(N):
-            arr[i][n] = min(arr[i][n], arr[i][j] + arr[j][n])
-            arr[n][i] = min(arr[i][n], arr[i][j] + arr[j][n])
-answer = 0
-print(arr)
-for i in range(N):
-    answer = max(answer, max(arr[i]))
-print(answer)
+    if (big[1] < first[i]):
+        big[0] = i
+        big[1] = first[i]
+
+first = [1000000000] * N
+first[big[0]] = 0
+visit = [0] * N
+bfs(big[0])
+print(max(first))
