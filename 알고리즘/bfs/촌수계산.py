@@ -11,6 +11,7 @@ for i in range(M):
     son[a].append(b)
     son[b].append(a)
 
+
 def bfs(a, b):
     s = [0] * (N +1)
     s[a] = 1
