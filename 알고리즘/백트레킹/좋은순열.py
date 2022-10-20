@@ -6,13 +6,13 @@ temp = [1]
 
 
 def back_track(depth):
-    if depth != 1:
-        if temp[-1] == temp[-2]:
+    i = 1
+    while True:
+        if i * 2 > depth:
+            break
+        if temp[-i:] == temp[-2 * i: -i]:
             return
-
-    if depth % 2 == 0:
-        if temp[-1] == temp[(depth // 2) - 1]:
-            return
+        i += 1
 
     if depth == N[0]:
         for i in temp:
