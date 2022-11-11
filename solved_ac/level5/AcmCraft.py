@@ -33,5 +33,3 @@ for _ in range(T):
                 queue.append(y)
 
     print(result[dest])
-
-
