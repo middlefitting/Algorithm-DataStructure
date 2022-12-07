@@ -4,12 +4,12 @@ import sys
 answer = math.inf
 N, hatk = map(int, sys.stdin.readline().split())
 left = 1
-right = (1000000 ** 2) * 123456
+right = (1000000 ** 2) * (N + 1)
 arr = []
 for i in range(N):
     arr.append(list(map(int, sys.stdin.readline().split())))
 
-while True:
+while left <= right:
     tempAtk = hatk
     hmax = (left + right) // 2
     hcur = hmax
@@ -25,11 +25,9 @@ while True:
             hcur = min(hmax, hcur + h)
     if possible:
         answer = min(answer, hmax)
-    if right - hmax <= 1:
-        break
     if possible:
-        right = hmax
+        right = hmax - 1
     else:
-        left = hmax
+        left = hmax + 1
 
 print(answer)
