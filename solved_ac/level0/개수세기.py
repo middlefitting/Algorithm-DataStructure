@@ -8,4 +8,7 @@ for i in range(N):
     except:
         d[arr[i]] = 1
 
-print(d[Num])
+try:
+    print(d[Num])
+except:
+    print(0)
