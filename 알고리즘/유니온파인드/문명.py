@@ -13,11 +13,10 @@ for i in range(K):
     x, y = map(int, sys.stdin.readline().split())
     arr[x-1][y-1] = (x - 1) * N + y - 1
     start.append([[x - 1, y - 1], 0])
-    # uf[(x - 1) * N + y - 1] = -1
 
 
 def find(a):
-    if uf[a] < 0:기
+    if uf[a] < 0:
         return a
     uf[a] = find(uf[a])
     return uf[a]
