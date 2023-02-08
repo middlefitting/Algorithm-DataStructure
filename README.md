@@ -1,4 +1,4 @@
-# GeneralInfo
+# 👋GeneralInfo
 - 자료구조 및 알고리즘 학습을 목적으로 개설된 레포지토리입니다.
 - 이 레포지토리는 매일 갱신됩니다. 
 - 시작은 미약하더라도 끝없이 발전합니다.
@@ -8,7 +8,7 @@
 
 
 
-# Learned
+# 🌱Learned
 ### 알고리즘
 - Big O 
 - 브루트 포스
@@ -42,7 +42,7 @@
 
 
 
-# Achievement
+# ⚡Achievement
 - Solved.ac 골드 달성
 - Solved.ac 플레티넘 달성
 </br>
