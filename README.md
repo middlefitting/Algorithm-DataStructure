@@ -3,7 +3,7 @@
 - 이 레포지토리는 매일 갱신됩니다. 
 - 시작은 미약하더라도 끝없이 발전합니다.
 - 알고리즘 학습을 진행하고 해당하는 문제를 풀어나가는 식으로 학습을 진행합니다.
-<br/><br/><br/><br/><br/>
+<br/><br/><br/>
 
 
 
@@ -36,6 +36,7 @@
 - List
 - LinkedList
 - Hashmap
+<br/><br/><br/>
 
 
 
@@ -43,5 +44,6 @@
 
 # Achievement
 - Solved.ac 골드 달성
-- Solved.ac 플레티넘 달성 
-- [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wjdtmdcjf199)](https://solved.ac/wjdtmdcjf199/)
+- Solved.ac 플레티넘 달성
+<br/>
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wjdtmdcjf199)](https://solved.ac/wjdtmdcjf199/)
