@@ -55,6 +55,5 @@
 
 </br></br></br>
 # 📘 My Teachers
-- https://github.com/ndb796/python-for-coding-test
 - https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw
 - https://m.blog.naver.com/kks227?categoryNo=299
