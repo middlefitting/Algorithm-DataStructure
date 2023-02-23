@@ -1,7 +1,6 @@
 N, K = map(int, input().split())
 bags = []
-## 접근은 되지만 수정이 안되는것 같다
-answer= [[0] * (K + 1) for i in range(N + 1)]
+answer = [[0] * (K + 1) for i in range(N + 1)]
 
 for i in range(N):
     item, value = map(int, input().split())
