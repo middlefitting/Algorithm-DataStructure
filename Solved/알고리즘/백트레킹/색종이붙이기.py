@@ -2,6 +2,7 @@ import math
 
 papers = [5, 5, 5, 5, 5]
 
+
 def back_tracking(temp, depth, arr):
     if depth >= answer[0]:
         return
