@@ -21,10 +21,11 @@ while True:
             answer = mid
             possible = True
             break
-    if right - mid <= 1:
+    if right <= left:
         break
     if possible:
-        left = mid
+        left = mid + 1
     else:
-        right = mid
+        right = mid - 1
 print(answer)
+
