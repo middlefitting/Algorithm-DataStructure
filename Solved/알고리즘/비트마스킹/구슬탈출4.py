@@ -29,11 +29,11 @@ class ExitGame:
         try:
             if self.visit[hash_code] <= depth:
                 return
+            if self.visit[hash_code] > depth:
+                self.visit[hash_code] = depth
         except KeyError:
             self.visit[hash_code] = depth
         if depth >= self.answer:
-            return
-        if depth > 10:
             return
         for mx, my in self.mv:
             self.move(rx, ry, bx, by, mx, my, depth)
@@ -110,9 +110,9 @@ class ExitGame:
 
     def get_answer(self):
         if self.answer == math.inf:
-            return 0
+            return -1
         else:
-            return 1
+            return self.answer
 
 
 if __name__ == "__main__":

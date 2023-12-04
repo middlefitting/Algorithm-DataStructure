@@ -8,6 +8,8 @@ class ExitGame:
         self.answer = math.inf
         self.visit = dict()
         self.mv = [[1, 0], [-1, 0], [0, 1], [0, -1]]
+        self.mv_dir = ["D", "U", "R", "L"]
+        self.answer_route = ""
         for i in range(self.N):
             for j in range(self.M):
                 if self.arr[i][j] == "O":
@@ -22,28 +24,31 @@ class ExitGame:
                     rx, ry = i, j
                 if self.arr[i][j] == "B":
                     bx, by = i, j
-        self.dfs(rx, ry, bx, by, 1)
+        self.dfs(rx, ry, bx, by, 1, "")
 
-    def dfs(self, rx, ry, bx, by, depth):
+    def dfs(self, rx, ry, bx, by, depth, route):
         hash_code = self.get_hash(rx, ry, bx, by)
         try:
             if self.visit[hash_code] <= depth:
                 return
+            if self.visit[hash_code] > depth:
+                self.visit[hash_code] = depth
         except KeyError:
             self.visit[hash_code] = depth
         if depth >= self.answer:
             return
         if depth > 10:
             return
-        for mx, my in self.mv:
-            self.move(rx, ry, bx, by, mx, my, depth)
+        for i in range(4):
+            mx, my = self.mv[i]
+            self.move(rx, ry, bx, by, mx, my, depth, route + self.mv_dir[i])
             self.arr[rx][ry] = "R"
             self.arr[bx][by] = "B"
 
     def get_hash(self, rx, ry, bx, by):
         return str(rx) + "@" + str(ry) + "@" + str(bx) + "@" + str(by)
 
-    def move(self, rx, ry, bx, by, mx, my, depth):
+    def move(self, rx, ry, bx, by, mx, my, depth, route):
         if (mx == 1 and rx >= bx) or (mx == -1 and rx <= bx) or (my == 1 and ry >= by) or (my == -1 and ry <= by):
             nrx, nry, rflag = self.do_mv(rx, ry, mx, my)
             self.arr[rx][ry] = "."
@@ -54,6 +59,8 @@ class ExitGame:
                 self.arr[nrx][nry] = "."
                 return
             if rflag:
+                if self.answer > depth:
+                    self.answer_route = route
                 self.answer = min(self.answer, depth)
                 self.arr[nrx][nry] = "."
                 self.arr[nbx][nby] = "."
@@ -61,7 +68,7 @@ class ExitGame:
                 return
             self.arr[bx][by] = "."
             self.arr[nbx][nby] = "B"
-            self.dfs(nrx, nry, nbx, nby, depth + 1)
+            self.dfs(nrx, nry, nbx, nby, depth + 1, route)
             self.arr[nrx][nry] = "."
             self.arr[nbx][nby] = "."
             return
@@ -73,13 +80,15 @@ class ExitGame:
             self.arr[nbx][nby] = "B"
             nrx, nry, flag = self.do_mv(rx, ry, mx, my)
             if flag:
+                if self.answer > depth:
+                    self.answer_route = route
                 self.answer = min(self.answer, depth)
                 self.arr[nbx][nby] = "."
                 self.arr[self.ox][self.oy] = "O"
                 return
             self.arr[rx][ry] = "."
             self.arr[nrx][nry] = "R"
-            self.dfs(nrx, nry, nbx, nby, depth + 1)
+            self.dfs(nrx, nry, nbx, nby, depth + 1, route)
             self.arr[nrx][nry] = "."
             self.arr[nbx][nby] = "."
             return
@@ -110,12 +119,13 @@ class ExitGame:
 
     def get_answer(self):
         if self.answer == math.inf:
-            return 0
+            print(-1)
         else:
-            return 1
+            print(self.answer)
+            print(self.answer_route)
 
 
 if __name__ == "__main__":
     game = ExitGame()
     game.start_game()
-    print(game.get_answer())
+    game.get_answer()

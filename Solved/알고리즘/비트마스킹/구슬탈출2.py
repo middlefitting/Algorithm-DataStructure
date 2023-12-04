@@ -110,9 +110,9 @@ class ExitGame:
 
     def get_answer(self):
         if self.answer == math.inf:
-            return 0
+            return -1
         else:
-            return 1
+            return self.answer
 
 
 if __name__ == "__main__":
