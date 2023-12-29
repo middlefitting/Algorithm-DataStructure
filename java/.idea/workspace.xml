@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30438b17-5b83-45fd-93e5-29d119853337" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/미세먼지안녕.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/7종경기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/7종경기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/Oddities.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/Oddities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/Tabliczka.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/Tabliczka.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/별찍기12.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/별찍기12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/사나운개.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/사나운개.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/사장님 도박은 재미로 하셔야 합니다.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/사장님 도박은 재미로 하셔야 합니다.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/와이버스부릉부릉.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/와이버스부릉부릉.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/운동장한바퀴.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/운동장한바퀴.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/이칙연산.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/이칙연산.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/인공지능시계.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/인공지능시계.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/체육은코딩과목입니다.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/체육은코딩과목입니다.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/치킨두마리.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/치킨두마리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/탁구경기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/탁구경기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/햄버거만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/햄버거만들기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/단계별로풀어보기/스택/제로.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/단계별로풀어보기/스택/제로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/bfs/농장관리.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/bfs/농장관리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/dfs/음식물피하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/dfs/음식물피하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구간합배열/MaximumSubarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구간합배열/MaximumSubarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/11721_열개씩끊어출력하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/11721_열개씩끊어출력하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/경사로.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/경사로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/방번호.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/방번호.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/상금헌터.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/상금헌터.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/영의개수.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/영의개수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/주사위.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/주사위.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/직사각형네개의합집합의면적구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/직사각형네개의합집합의면적구하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/카드놀이.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/카드놀이.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/트럭주차.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/트럭주차.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/호반우가학교에지각한이유1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/호반우가학교에지각한이유1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/그리디/강의실배정.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/그리디/강의실배정.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/그리디/박스채우기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/그리디/박스채우기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/다이나믹프로그래밍/괄호.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/다이나믹프로그래밍/괄호.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/브루트포스/N과M10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/브루트포스/N과M10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/비트마스킹/2048easy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/비트마스킹/2048easy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/비트마스킹/파이썬비트마스킹연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/비트마스킹/파이썬비트마스킹연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/세그먼트트리/최솟값과최댓값_2357.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/세그먼트트리/최솟값과최댓값_2357.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/우선순위큐/N번째큰수.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/우선순위큐/N번째큰수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/유니온파인드/영역구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/유니온파인드/영역구하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/트리/트리의높이와너비.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/트리/트리의높이와너비.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/자료구조/스택/단어뒤집기2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/자료구조/스택/단어뒤집기2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/프로그래머스/고득점kit/그리디/단속카메라.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/프로그래머스/고득점kit/그리디/단속카메라.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/프로그래머스/고득점kit/완전탐색/모음사전.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/프로그래머스/고득점kit/완전탐색/모음사전.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XtdghrEOI8voWSCIjFTZzUDjdz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;13420d&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/middlefitting/Algorithm-DataStructure/java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.구현.낚시왕.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.괄호.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.괄호.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="구현.낚시왕.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="구현.낚시왕.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="구현.낚시왕.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.구현.낚시왕.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30438b17-5b83-45fd-93e5-29d119853337" name="Changes" comment="" />
+      <created>1699452423191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699452423191</updated>
+      <workItem from="1699452424457" duration="6098000" />
+      <workItem from="1699681836405" duration="2934000" />
+      <workItem from="1699763797603" duration="599000" />
+      <workItem from="1699765204502" duration="54000" />
+      <workItem from="1702719496527" duration="6234000" />
+      <workItem from="1702988077658" duration="12635000" />
+      <workItem from="1703303553533" duration="11571000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
