@@ -1,3 +1,4 @@
+N = int(input())
 s = str(input())
 A = 0
 B = 0
