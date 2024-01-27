@@ -15,10 +15,10 @@ class Reader {
 
 	public static ArrayList<Integer> readInteger() {
 		try {
-			return Arrays
-				.stream(br.readLine().split(" "))
-				.map(Integer::parseInt)
-				.collect(Collectors.toCollection(ArrayList::new));
+			return
+				Arrays.stream(br.readLine().split(" "))
+					.map(Integer::parseInt)
+					.collect(Collectors.toCollection(ArrayList::new));
 		} catch (Exception e) {
 			throw new RuntimeException();
 		}
@@ -43,7 +43,8 @@ class Camp {
 	}
 
 	private void dfs(int idx, int depth, int sum, int min, int max) {
-		if (sum > R) return;
+		if (sum > R)
+			return;
 
 		if (depth >= 2 && sum >= L && max - min >= X) {
 			answer += 1;
