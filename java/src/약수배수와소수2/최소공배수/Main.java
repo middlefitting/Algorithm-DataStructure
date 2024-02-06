@@ -31,9 +31,9 @@ public class Main {
 
 			System.out.println(contain * a * b);
 
-
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 }
+
