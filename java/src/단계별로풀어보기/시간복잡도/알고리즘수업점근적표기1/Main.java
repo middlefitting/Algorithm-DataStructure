@@ -1,4 +1,4 @@
-package 약수배수와소수2.분수합;
+package 단계별로풀어보기.시간복잡도.알고리즘수업점근적표기1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,24 +11,19 @@ public class Main {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
+			int c = Integer.parseInt(br.readLine());
+			int d = Integer.parseInt(br.readLine());
 
-			st = new StringTokenizer(br.readLine());
-			int c = Integer.parseInt(st.nextToken());
-			int d = Integer.parseInt(st.nextToken());
-
-			int head = a * d + c * b;
-			int bottom = b * d;
-
-			int idx = 2;
-			while (idx <= head && idx <= bottom) {
-				if (head % idx == 0 && bottom % idx == 0) {
-					head /= idx;
-					bottom /= idx;
-					continue;
+			if (a * d + b > c * d) {
+				System.out.println(0);
+			} else {
+				if (a > c) {
+					System.out.println(0);
+				} else {
+					System.out.println(1);
 				}
-				idx++;
 			}
-			System.out.println(head + " " + bottom);
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

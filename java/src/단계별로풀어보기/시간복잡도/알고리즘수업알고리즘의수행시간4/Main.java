@@ -1,4 +1,4 @@
-package 시간복잡도.알고리즘수업알고리즘의수행시간6;
+package 단계별로풀어보기.시간복잡도.알고리즘수업알고리즘의수행시간4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,9 +8,12 @@ public class Main {
 	public static void main(String[] args) {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 			long n = Long.parseLong(br.readLine());
-			long result = n * (n - 1) * (n - 2) / 6;
+			long result = 0;
+			for (long i = 1; i < n; i++) {
+				result += i;
+			}
 			System.out.println(result);
-			System.out.println(3);
+			System.out.println(2);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

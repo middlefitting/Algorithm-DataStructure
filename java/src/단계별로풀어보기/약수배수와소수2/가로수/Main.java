@@ -1,10 +1,9 @@
-package 약수배수와소수2.가로수;
+package 단계별로풀어보기.약수배수와소수2.가로수;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 
 public class Main {
 	public static void main(String[] args) {

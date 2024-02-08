@@ -1,4 +1,4 @@
-package 약수배수와소수2.골드바흐파티션;
+package 단계별로풀어보기.약수배수와소수2.골드바흐파티션;
 
 import java.io.BufferedReader;
 import java.io.IOException;

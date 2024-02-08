@@ -1,4 +1,4 @@
-package 시간복잡도.알고리즘수업알고리즘의수행시간5;
+package 단계별로풀어보기.시간복잡도.알고리즘수업알고리즘의수행시간5;
 
 import java.io.BufferedReader;
 import java.io.IOException;
