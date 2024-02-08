@@ -12,7 +12,7 @@ class Main {
 		}
 		while (true) {
 			boolean flag = true;
-			for (int i = 2; i <= (int) Math.sqrt(result); i++) {
+			for (long i = 2; i <= (long) Math.sqrt(result); i++) {
 				if (result % i == 0) {
 					result++;
 					flag = false;
