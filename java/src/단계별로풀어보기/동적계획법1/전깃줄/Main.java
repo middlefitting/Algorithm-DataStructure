@@ -1,4 +1,4 @@
-package 단계별로풀어보기.동적계획법1;
+package 단계별로풀어보기.동적계획법1.전깃줄;
 
 import java.io.BufferedReader;
 import java.io.IOException;
