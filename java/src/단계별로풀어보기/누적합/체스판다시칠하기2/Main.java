@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-
 public class Main {
 	public static void main(String[] args) {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
@@ -17,6 +16,8 @@ public class Main {
 			int[][] arr2 = new int[n][m];
 			int[][] sum1 = new int[n][m];
 			int[][] sum2 = new int[n][m];
+			int answer = Integer.MAX_VALUE;
+
 			for (int i = 0; i < n; i++) {
 				String temp = br.readLine();
 				for (int j = 0; j < m; j++) {
@@ -45,16 +46,15 @@ public class Main {
 				}
 			}
 
-			int answer = Integer.MAX_VALUE;
 			for (int i = k - 1; i < n; i++) {
 				for (int j = k - 1; j < m; j++) {
 					int left = j - k >= 0 ? sum1[i][j - k] : 0;
 					int up = i - k >= 0 ? sum1[i - k][j] : 0;
-					int diagonal = j - k >= 0  && i - k >= 0 ? sum1[i - k][j - k] : 0;
+					int diagonal = j - k >= 0 && i - k >= 0 ? sum1[i - k][j - k] : 0;
 					answer = Math.min(answer, sum1[i][j] - left - up + diagonal);
 					left = j - k >= 0 ? sum2[i][j - k] : 0;
 					up = i - k >= 0 ? sum2[i - k][j] : 0;
-					diagonal = j - k >= 0  && i - k >= 0 ? sum2[i - k][j - k] : 0;
+					diagonal = j - k >= 0 && i - k >= 0 ? sum2[i - k][j - k] : 0;
 					answer = Math.min(answer, sum2[i][j] - left - up + diagonal);
 				}
 			}

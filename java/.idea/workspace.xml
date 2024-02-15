@@ -222,7 +222,8 @@
       <workItem from="1707717767614" duration="2114000" />
       <workItem from="1707792443318" duration="1986000" />
       <workItem from="1707883384583" duration="2935000" />
-      <workItem from="1707889864456" duration="592000" />
+      <workItem from="1707889864456" duration="778000" />
+      <workItem from="1707968917726" duration="1614000" />
     </task>
     <servers />
   </component>
@@ -239,6 +240,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/단계별로풀어보기/분할정복/색종이만들기/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
