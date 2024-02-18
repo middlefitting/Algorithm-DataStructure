@@ -101,7 +101,7 @@
       <recent name="시간복잡도.알고리즘수업알고리즘의수행시간3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.단계별로풀어보기.그래프와순회.알고리즘수업깊이우선탐색1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="알고리즘.dp.괄호.Main" />
       <module name="java" />
@@ -121,6 +121,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="알고리즘.dp.괄호.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="단계별로풀어보기.그래프와순회.알고리즘수업깊이우선탐색1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="단계별로풀어보기.그래프와순회.알고리즘수업깊이우선탐색1.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="단계별로풀어보기.그래프와순회.알고리즘수업깊이우선탐색1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,6 +182,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.단계별로풀어보기.그래프와순회.알고리즘수업깊이우선탐색1.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.알고리즘.점수계산.Main" />
@@ -224,7 +238,9 @@
       <workItem from="1707883384583" duration="2935000" />
       <workItem from="1707889864456" duration="778000" />
       <workItem from="1707968917726" duration="2467000" />
-      <workItem from="1708146625925" duration="2063000" />
+      <workItem from="1708146625925" duration="2724000" />
+      <workItem from="1708235090498" duration="1727000" />
+      <workItem from="1708242005402" duration="646000" />
     </task>
     <servers />
   </component>
