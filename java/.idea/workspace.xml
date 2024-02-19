@@ -98,10 +98,13 @@
       <recent name="$PROJECT_DIR$/src/구현/새로운게임2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="단계별로풀어보기.그래프와순회.알고리즘수업너비우선탐색2" />
+      <recent name="단계별로풀어보기.그래프와순회.알고리즘수업너비우선탐색1" />
+      <recent name="단계별로풀어보기.그래프와순회.알고리즘수업깊이우선탐색2" />
       <recent name="시간복잡도.알고리즘수업알고리즘의수행시간3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.단계별로풀어보기.그래프와순회.알고리즘수업깊이우선탐색1.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="알고리즘.dp.괄호.Main" />
       <module name="java" />
@@ -240,7 +243,7 @@
       <workItem from="1707968917726" duration="2467000" />
       <workItem from="1708146625925" duration="2724000" />
       <workItem from="1708235090498" duration="1727000" />
-      <workItem from="1708242005402" duration="646000" />
+      <workItem from="1708242005402" duration="3048000" />
     </task>
     <servers />
   </component>
