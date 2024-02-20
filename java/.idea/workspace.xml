@@ -245,7 +245,7 @@
       <workItem from="1708146625925" duration="2724000" />
       <workItem from="1708235090498" duration="1727000" />
       <workItem from="1708242005402" duration="3365000" />
-      <workItem from="1708351860064" duration="1325000" />
+      <workItem from="1708351860064" duration="8168000" />
     </task>
     <servers />
   </component>
@@ -270,6 +270,11 @@
           <url>file://$PROJECT_DIR$/src/단계별로풀어보기/분할정복/색종이만들기/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/알고리즘/정렬/버블정렬/알고리즘수업버블정렬3/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
