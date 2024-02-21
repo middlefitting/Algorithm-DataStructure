@@ -9,8 +9,21 @@ import java.util.stream.Stream;
 
 public class Main {
 	private static int n;
+	private static int k;
 	private static int[] arr;
 	private static ArrayList<int[]> results = new ArrayList<>();
+
+	private static void parseInput() {
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			n = Integer.parseInt(st.nextToken());
+			k = Integer.parseInt(st.nextToken());
+			arr = Stream.of(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+		} catch (IOException e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+	}
 
 	private static void selectSort() {
 		for (int i = n - 1; i >= 0; i--) {
@@ -29,22 +42,19 @@ public class Main {
 		}
 	}
 
-	public static void main(String[] args) {
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
-			StringTokenizer st = new StringTokenizer(br.readLine());
-			n = Integer.parseInt(st.nextToken());
-			int k = Integer.parseInt(st.nextToken());
-			arr = Stream.of(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-			selectSort();
-			StringBuffer sb = new StringBuffer();
-			if (results.size() >= k) {
-				sb.append(results.get(k - 1)[0]).append(" ").append(results.get(k - 1)[1]);
-			} else {
-				sb.append(-1);
-			}
-			System.out.println(sb);
-		} catch (IOException e) {
-			e.printStackTrace();
+	private static void printResult() {
+		StringBuffer sb = new StringBuffer();
+		if (results.size() >= k) {
+			sb.append(results.get(k - 1)[0]).append(" ").append(results.get(k - 1)[1]);
+		} else {
+			sb.append(-1);
 		}
+		System.out.println(sb);
+	}
+
+	public static void main(String[] args) {
+		parseInput();
+		selectSort();
+		printResult();
 	}
 }
