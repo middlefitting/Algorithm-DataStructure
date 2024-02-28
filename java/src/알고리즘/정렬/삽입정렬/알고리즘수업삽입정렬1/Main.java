@@ -1,4 +1,4 @@
-package 알고리즘.정렬.삽입정렬;
+package 알고리즘.정렬.삽입정렬.알고리즘수업삽입정렬1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
