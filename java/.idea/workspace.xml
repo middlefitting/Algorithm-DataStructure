@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/운동장한바퀴.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/운동장한바퀴.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/이칙연산.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/이칙연산.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/인공지능시계.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/인공지능시계.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/지폐세기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/지폐세기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/체육은코딩과목입니다.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/체육은코딩과목입니다.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/치킨두마리.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/치킨두마리.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/탁구경기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/탁구경기.py" afterDir="false" />
@@ -255,7 +256,8 @@
       <workItem from="1709198066990" duration="1398000" />
       <workItem from="1709287166669" duration="1285000" />
       <workItem from="1709370787006" duration="393000" />
-      <workItem from="1709446429684" duration="1549000" />
+      <workItem from="1709446429684" duration="1817000" />
+      <workItem from="1709526692507" duration="2188000" />
     </task>
     <servers />
   </component>
