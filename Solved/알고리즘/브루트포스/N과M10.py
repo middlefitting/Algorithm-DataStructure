@@ -1,3 +1,4 @@
+
 def ft_print(temp):
     for i in temp:
         print(i, end=" ")
