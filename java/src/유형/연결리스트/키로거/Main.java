@@ -3,9 +3,7 @@ package 유형.연결리스트.키로거;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
 import java.util.Stack;
-import java.util.stream.Collectors;
 
 public class Main {
 	private static StringBuffer sb = new StringBuffer();
