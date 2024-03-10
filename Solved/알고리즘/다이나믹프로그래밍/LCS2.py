@@ -26,3 +26,4 @@ while answer[0] > 0 or answer[1] > 0:
     result = s2[answer[0] - 1] + result
     answer = [answer[0] - 1, answer[1] - 1]
 print(result)
+
