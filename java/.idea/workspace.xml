@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/별찍기12.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/별찍기12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/사나운개.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/사나운개.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/사장님 도박은 재미로 하셔야 합니다.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/사장님 도박은 재미로 하셔야 합니다.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/선린인터넷고등학교교가.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/선린인터넷고등학교교가.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/와이버스부릉부릉.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/와이버스부릉부릉.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/운동장한바퀴.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/운동장한바퀴.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/이칙연산.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/이칙연산.py" afterDir="false" />
@@ -36,9 +37,6 @@
       <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/구현/호반우가학교에지각한이유1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/구현/호반우가학교에지각한이유1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/그리디/강의실배정.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/그리디/강의실배정.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/그리디/박스채우기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/그리디/박스채우기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/다이나믹프로그래밍/LCS2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/다이나믹프로그래밍/LCS2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/다이나믹프로그래밍/괄호.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/다이나믹프로그래밍/괄호.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/다이나믹프로그래밍/크리보드.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/다이나믹프로그래밍/크리보드.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/분할정복/캠프준비.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/분할정복/캠프준비.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/브루트포스/trst.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/브루트포스/trst.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/알고리즘/브루트포스/감시.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/알고리즘/브루트포스/감시.py" afterDir="false" />
@@ -261,7 +259,8 @@
       <workItem from="1709709285501" duration="1163000" />
       <workItem from="1709730715362" duration="7400000" />
       <workItem from="1709882881132" duration="3921000" />
-      <workItem from="1709971283359" duration="1244000" />
+      <workItem from="1709971283359" duration="1355000" />
+      <workItem from="1710134788541" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
