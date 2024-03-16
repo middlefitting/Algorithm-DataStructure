@@ -264,7 +264,7 @@
       <workItem from="1710311176447" duration="7417000" />
       <workItem from="1710487922716" duration="5165000" />
       <workItem from="1710508282906" duration="2948000" />
-      <workItem from="1710566710330" duration="4485000" />
+      <workItem from="1710566710330" duration="6410000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
@@ -301,6 +301,11 @@
           <url>file://$PROJECT_DIR$/src/단계별로풀어보기/분할정복/색종이만들기/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/유형/누적합/피아노체조/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
