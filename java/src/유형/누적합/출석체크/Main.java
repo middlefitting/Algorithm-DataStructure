@@ -3,9 +3,11 @@ package 유형.누적합.출석체크;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.StringTokenizer;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -55,7 +57,6 @@ public class Main {
 				sb.append(e - s + 1 - sums[e] + sums[s - 1]).append("\n");
 			}
 			System.out.println(sb);
-
 		} catch (IOException e) {
 			e.printStackTrace();
 			throw new RuntimeException();
