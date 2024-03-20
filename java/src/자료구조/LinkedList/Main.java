@@ -1,5 +1,7 @@
 package 자료구조.LinkedList;
 
+import java.lang.module.FindException;
+
 class LinkedList {
 	Node head;
 
@@ -67,9 +69,21 @@ class LinkedList {
 			System.out.println(idx + " position element deleted");
 			return list;
 		}
+		int counter = 0;
 
-
-
+		while (currNode != null) {
+			if (counter == idx) {
+				prev.next = currNode.next;
+				System.out.println(idx + " position element deleted");
+				break;
+			}
+			else {
+				prev = currNode;
+				currNode = currNode.next;
+				counter++;
+			}
+		}
+		System.out.println(idx + " position element not found");
 		return list;
 	}
 }
