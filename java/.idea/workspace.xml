@@ -105,7 +105,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="알고리즘.dp.괄호.Main" />
       <module name="java" />
       <extension name="coverage">
@@ -185,7 +185,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.단계별로풀어보기.그래프와순회.알고리즘수업깊이우선탐색1.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.알고리즘.점수계산.Main" />
@@ -273,7 +272,8 @@
       <workItem from="1710810338340" duration="6351000" />
       <workItem from="1710844458355" duration="2328000" />
       <workItem from="1710852907832" duration="10688000" />
-      <workItem from="1710946581677" duration="4235000" />
+      <workItem from="1710946581677" duration="4513000" />
+      <workItem from="1711023365932" duration="8324000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
