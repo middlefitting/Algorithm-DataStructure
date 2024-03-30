@@ -104,7 +104,7 @@
       <recent name="단계별로풀어보기.그래프와순회.알고리즘수업너비우선탐색2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="알고리즘.dp.괄호.Main" />
       <module name="java" />
@@ -283,7 +283,8 @@
       <workItem from="1711516242652" duration="34000" />
       <workItem from="1711600292125" duration="1337000" />
       <workItem from="1711678515323" duration="2181000" />
-      <workItem from="1711776655068" duration="182000" />
+      <workItem from="1711776655068" duration="853000" />
+      <workItem from="1711839870548" duration="165000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
