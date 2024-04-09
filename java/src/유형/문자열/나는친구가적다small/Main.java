@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -15,7 +17,12 @@ public class Main {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 			compare = Arrays.stream(br.readLine().split("")).collect(Collectors.toList());
 			str = Arrays.stream(br.readLine().split("")).collect(Collectors.toList());
-			ftStrIn(compare, str);
+			boolean b = ftStrIn(compare, str);
+			if (b) {
+				System.out.println(1);
+			} else {
+				System.out.println(0);
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 			throw new RuntimeException();
@@ -23,20 +30,30 @@ public class Main {
 	}
 
 	private static boolean ftStrIn(List<String> compare, List<String> str) {
-		for (int i = 0; i < compare.size(); i++) {
-			boolean flag = true;
-			int idx = i;
-			for (int j = 0; j < str.size(); j++) {
-				while (idx < compare.size()) {
-					if (compare.get(idx).equals(str.get(idx))) {
-						break;
-					}
-					idx++;
+		int idx = 0;
+		HashSet<String> set = new HashSet<>();
+		for (int i = 0; i < 10; i++) {
+			set.add(String.valueOf(i));
+		}
+		while (idx < compare.size()) {
+			int cdx = 0;
+			for (int i = idx; i < compare.size(); i++) {
+				if (cdx >= str.size()) {
+					break;
 				}
+				if (str.get(cdx).equals(compare.get(i))) {
+					cdx++;
+					continue;
+				}
+				if (set.contains(compare.get(i))) {
+					continue;
+				}
+				break;
 			}
-			if (flag) {
+			if (cdx >= str.size()) {
 				return true;
 			}
+			idx++;
 		}
 		return false;
 	}
