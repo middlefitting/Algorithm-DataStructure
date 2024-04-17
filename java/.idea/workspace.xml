@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/별찍기12.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/별찍기12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/사나운개.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/사나운개.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/사장님 도박은 재미로 하셔야 합니다.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/사장님 도박은 재미로 하셔야 합니다.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/선그리기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/선그리기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/선린인터넷고등학교교가.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/선린인터넷고등학교교가.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/와이버스부릉부릉.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/와이버스부릉부릉.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/운동장한바퀴.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/운동장한바퀴.py" afterDir="false" />
@@ -299,7 +300,10 @@
       <workItem from="1712969758388" duration="813000" />
       <workItem from="1713071917504" duration="863000" />
       <workItem from="1713135703781" duration="1151000" />
-      <workItem from="1713176128726" duration="4884000" />
+      <workItem from="1713176128726" duration="5045000" />
+      <workItem from="1713263203553" duration="2667000" />
+      <workItem from="1713347787381" duration="13000" />
+      <workItem from="1713347813030" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
