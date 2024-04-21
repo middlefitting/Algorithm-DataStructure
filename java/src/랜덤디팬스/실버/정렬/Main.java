@@ -11,14 +11,14 @@ public class Main {
 			int n = Integer.parseInt(br.readLine());
 			long[] arr = Arrays.stream(br.readLine().split(" ")).mapToLong(Long::parseLong).toArray();
 			int target = 0;
-			long max = arr[0];
 			int idx = 0;
 			for (int i = 1; i < n; i++) {
 				if (arr[i - 1] > arr[i]) {
 					target++;
 					idx = i;
-				} else {
-					max = arr[i];
+				}
+				if (target >= 2) {
+					break;
 				}
 			}
 			if (target >= 2) {
