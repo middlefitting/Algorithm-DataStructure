@@ -18,7 +18,8 @@ public class Main {
 				map.put(key, map.getOrDefault(key, 0) + 1);
 			}
 			Map.Entry<String, Integer> max = map.entrySet().stream()
-				.min(Comparator.comparing(Map.Entry<String, Integer>::getValue).reversed().thenComparing(Map.Entry::getKey))
+				.min(Comparator.comparing(Map.Entry<String, Integer>::getValue).reversed()
+					.thenComparing(Map.Entry::getKey))
 				.orElseThrow();
 			System.out.println(max.getKey());
 		} catch (IOException e) {
