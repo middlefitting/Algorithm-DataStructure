@@ -12,7 +12,7 @@ public class Main {
 			for (int i = 0; i < s.length(); i++) {
 				char temp = (char)(s.charAt(i) - 3);
 				if (temp < 65) {
-					temp += 25;
+					temp += 26;
 				}
 				answer += temp;
 			}
