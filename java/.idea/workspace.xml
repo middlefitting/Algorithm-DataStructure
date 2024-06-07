@@ -353,7 +353,8 @@
       <workItem from="1717325287348" duration="2149000" />
       <workItem from="1717459100918" duration="723000" />
       <workItem from="1717554820660" duration="934000" />
-      <workItem from="1717674251695" duration="406000" />
+      <workItem from="1717674251695" duration="481000" />
+      <workItem from="1717727770247" duration="190000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
@@ -390,6 +391,11 @@
           <url>file://$PROJECT_DIR$/src/단계별로풀어보기/분할정복/색종이만들기/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/유형/문자열/럭키스트레이트/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
