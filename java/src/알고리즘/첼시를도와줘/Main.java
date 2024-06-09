@@ -1,7 +1,7 @@
 package 알고리즘.첼시를도와줘;
 
 /**
- * Main.
+ * Hello.
  *
  * <p>
  *

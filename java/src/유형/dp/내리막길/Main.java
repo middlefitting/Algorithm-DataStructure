@@ -56,7 +56,7 @@ public class Main {
 }
 
 //
-// public class Main {
+// public class Hello {
 // 	static int n;
 // 	static int m;
 // 	static int[][] map;

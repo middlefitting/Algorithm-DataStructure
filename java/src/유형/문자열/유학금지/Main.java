@@ -1,5 +1,3 @@
-package 유형.문자열.유학금지;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

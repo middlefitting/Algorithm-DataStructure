@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 //  * 투포인터
 //  * </p>
 //  */
-// public class Main {
+// public class Hello {
 // 	public static void main(String[] args) {
 // 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 // 			int n = Integer.parseInt(br.readLine());
