@@ -26,7 +26,6 @@ public class Main {
 				}
 				System.out.println(temp);
 			}
-
 		} catch (IOException e) {
 			throw new RuntimeException();
 		}
