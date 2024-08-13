@@ -1,4 +1,4 @@
-package 유형.벨만포드;
+package 유형.벨만포드.오민식의고민;
 
 import java.io.BufferedReader;
 import java.io.IOException;
