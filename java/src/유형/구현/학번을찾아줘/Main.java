@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 			int n = Integer.parseInt(br.readLine());
-			long[] arr = new long[n];
+			long[] arr = new long[5];
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			for (int i = 0; i < n; i++) {
 				arr[i] = Long.parseLong(st.nextToken());
@@ -17,20 +17,16 @@ public class Main {
 
 			long result = 0;
 
-			if (n >= 3 && arr[0] > arr[2]) {
+			if (arr[0] > arr[2]) {
 				result += (arr[0] - arr[2]) * 508;
-			} else if (n >= 3) {
-				result += (arr[2] - arr[0]) * 108;
 			} else {
-				result += arr[0] * 108;
+				result += (arr[2] - arr[0]) * 108;
 			}
 
-			if (n >= 4 && arr[1] > arr[3]) {
+			if (arr[1] > arr[3]) {
 				result += (arr[1] - arr[3]) * 212;
-			} else if (n >= 4) {
+			} else {
 				result += (arr[3] - arr[1]) * 305;
-			} else if (n >= 2) {
-				result += arr[1] * 212;
 			}
 
 			if (n >= 5) {
