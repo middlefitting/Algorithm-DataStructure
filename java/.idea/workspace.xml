@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30438b17-5b83-45fd-93e5-29d119853337" name="Changes" comment="feat(solved.ac): n과m10">
-      <change afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/hello.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/2023은뭐가특별할까.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/2023은뭐가특별할까.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/Oddities.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/Oddities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/Tabliczka.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/Tabliczka.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/hello.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/라면계수.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/라면계수.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/별찍기12.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/별찍기12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solved/solved_ac/level0/사나운개.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Solved/solved_ac/level0/사나운개.py" afterDir="false" />
@@ -392,7 +392,8 @@
       <workItem from="1724763770029" duration="2464000" />
       <workItem from="1724854570835" duration="970000" />
       <workItem from="1724937512047" duration="6302000" />
-      <workItem from="1725267088799" duration="1220000" />
+      <workItem from="1725267088799" duration="1353000" />
+      <workItem from="1725368538140" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
