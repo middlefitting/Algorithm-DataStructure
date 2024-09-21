@@ -135,15 +135,40 @@ import java.util.HashSet;
 // // }
 
 
+// public class Main {
+// 	public static void main(String[] args) {
+// 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+// 			int n = Integer.parseInt(br.readLine());
+// 			int[] dp = new int[n + 1];
+// 			Arrays.fill(dp, Integer.MAX_VALUE);
+// 			dp[0] = 0;
+//
+// 			for (int i = 1; i * i <= n; i++) {
+// 				int s = i * i;
+// 				for (int j = s; j <= n; j++) {
+// 					dp[j] = Math.min(dp[j], dp[j - s] + 1);
+// 				}
+// 			}
+//
+// 			System.out.println(dp[n]);
+// 		} catch (IOException e) {
+// 			throw new RuntimeException(e);
+// 		}
+// 	}
+// }
+
+
 public class Main {
 	public static void main(String[] args) {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 			int n = Integer.parseInt(br.readLine());
 			int[] dp = new int[n + 1];
-			Arrays.fill(dp, Integer.MAX_VALUE);
-			dp[0] = 0;
+			for (int i = 0; i <= n; i++) {
+				dp[i] = i;
+			}
 
-			for (int i = 1; i * i <= n; i++) {
+
+			for (int i = 1; i <= Math.sqrt(n); i++) {
 				int s = i * i;
 				for (int j = s; j <= n; j++) {
 					dp[j] = Math.min(dp[j], dp[j - s] + 1);
