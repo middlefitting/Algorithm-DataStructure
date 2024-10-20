@@ -19,7 +19,9 @@ public class Main {
 			}
 
 			for (long i : map.keySet()) {
-				if (map.get(result) < map.get(i)) {
+				if (map.get(result) == map.get(i)) {
+					result = Math.min(result, i);
+				} else if (map.get(result) < map.get(i)) {
 					result = i;
 				}
 			}
@@ -31,3 +33,5 @@ public class Main {
 		}
 	}
 }
+
+
