@@ -14,11 +14,11 @@ public class Main {
 				StringTokenizer st = new StringTokenizer(br.readLine());
 				int n = Integer.parseInt(st.nextToken());
 
-				HashMap<Integer, Integer> map = new HashMap<>();
+				HashMap<Long, Integer> map = new HashMap<>();
 				boolean flag = false;
-				int answer = 0;
+				long answer = 0;
 				for (int j = 0; j < n; j++) {
-					int soldier = Integer.parseInt(st.nextToken());
+					long soldier = Long.parseLong(st.nextToken());
 					map.put(soldier, map.getOrDefault(soldier, 0) + 1);
 					if (map.get(soldier) > n / 2) {
 						flag = true;
