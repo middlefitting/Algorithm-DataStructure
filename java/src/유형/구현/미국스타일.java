@@ -21,6 +21,7 @@ public class 미국스타일 {
 	public static void main(String[] args) {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 			int T = Integer.parseInt(br.readLine());
+
 			for (int i = 0; i < T; i++) {
 				StringTokenizer st = new StringTokenizer(br.readLine());
 				double value = Double.parseDouble(st.nextToken());
