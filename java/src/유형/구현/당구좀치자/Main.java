@@ -10,11 +10,11 @@ public class Main {
 	public static void main(String[] args) {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 			int n = Integer.parseInt(br.readLine());
-			int[] arr = new int[n];
-			int gage = 0;
+			long[] arr = new long[n];
+			long gage = 0;
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			for (int i = 0; i < n; i++) {
-				int today = Integer.parseInt(st.nextToken());
+				long today = Long.parseLong(st.nextToken());
 				if (today == 0) {
 					gage--;
 				} else {
