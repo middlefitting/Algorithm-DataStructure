@@ -201,7 +201,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.유형.구현.꼬리를무는문자나열.Main" />
         <item itemvalue="Application.단계별로풀어보기.그래프와순회.알고리즘수업깊이우선탐색1.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.알고리즘.점수계산.Main" />
@@ -427,7 +426,9 @@
       <workItem from="1729399768291" duration="141000" />
       <workItem from="1729399920676" duration="21413000" />
       <workItem from="1730469205185" duration="1396000" />
-      <workItem from="1730531767645" duration="18690000" />
+      <workItem from="1730531767645" duration="19689000" />
+      <workItem from="1731517479306" duration="49000" />
+      <workItem from="1731592917600" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
