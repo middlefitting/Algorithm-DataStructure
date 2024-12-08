@@ -436,7 +436,7 @@
       <workItem from="1732382037347" duration="2857000" />
       <workItem from="1732540885983" duration="495000" />
       <workItem from="1732628073156" duration="302000" />
-      <workItem from="1732713739164" duration="15551000" />
+      <workItem from="1732713739164" duration="23191000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
@@ -481,14 +481,19 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="uf[2]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/java$___Main.ic" NAME="유형.스택.괄호의값.Main Coverage Results" MODIFIED="1726185365079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>유형.스택.괄호의값.*</FILTER>
+    <SUITE FILE_PATH="coverage/java$___Main.ic" NAME="유형.깊이우선탐색.다리만들기.Main Coverage Results" MODIFIED="1733633544403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>유형.깊이우선탐색.다리만들기.*</FILTER>
     </SUITE>
   </component>
 </project>
