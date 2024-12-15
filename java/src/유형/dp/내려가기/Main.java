@@ -13,7 +13,6 @@ public class Main {
 
 			int[][] maxArr = new int[n][3];
 			int[][] minArr = new int[n][3];
-
 			int[][] arr = new int[n][3];
 
 			for (int i = 0; i < n; i++) {

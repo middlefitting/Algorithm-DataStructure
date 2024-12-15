@@ -437,7 +437,8 @@
       <workItem from="1732540885983" duration="495000" />
       <workItem from="1732628073156" duration="302000" />
       <workItem from="1732713739164" duration="24423000" />
-      <workItem from="1733752200426" duration="5090000" />
+      <workItem from="1733752200426" duration="6082000" />
+      <workItem from="1734263588503" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="feat(solved.ac): n과m10">
       <created>1709731126969</created>
@@ -479,11 +480,6 @@
           <url>file://$PROJECT_DIR$/src/유형/문자열/사칙연산/Main.java</url>
           <line>7</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/유형/dp/내려가기/Main.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
