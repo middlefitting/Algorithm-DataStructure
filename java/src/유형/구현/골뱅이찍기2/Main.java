@@ -1,4 +1,4 @@
-package 유형.골뱅이찍기;
+package 유형.구현.골뱅이찍기2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,41 +10,35 @@ public class Main {
 
 			int n = Integer.parseInt(br.readLine());
 
+			StringBuilder sb = new StringBuilder();
 			for (int i = 0; i < n; i++) {
 				for (int j = 0; j < n * 5; j++) {
-					System.out.print("@");
+					sb.append("@");
 				}
-				System.out.println();
+				sb.append("\n");
 			}
 
-			for (int i = 0; i < n; i++) {
+			for (int i = 0; i < n * 3; i++) {
 				for (int j = 0; j < n; j++) {
-					System.out.print("@");
+					sb.append("@");
 				}
-				System.out.println();
-			}
-
-			for (int i = 0; i < n; i++) {
-				for (int j = 0; j < n * 5; j++) {
-					System.out.print("@");
+				for (int j = 0; j < n * 3; j++) {
+					sb.append(" ");
 				}
-				System.out.println();
-			}
-
-			for (int i = 0; i < n; i++) {
 				for (int j = 0; j < n; j++) {
-					System.out.print("@");
+					sb.append("@");
 				}
-				System.out.println();
+				sb.append("\n");
 			}
 
 			for (int i = 0; i < n; i++) {
 				for (int j = 0; j < n * 5; j++) {
-					System.out.print("@");
+					sb.append("@");
 				}
-				System.out.println();
+				sb.append("\n");
 			}
 
+			System.out.print(sb);
 		} catch (IOException e) {
 			throw new RuntimeException();
 		}
